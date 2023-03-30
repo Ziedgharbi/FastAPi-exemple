@@ -4,9 +4,6 @@ from tensorflow import keras
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import image
-
-
-
 import cv2 as cv
 
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
@@ -18,7 +15,6 @@ from itertools import repeat
 
 from numba import jit, cuda
 import time
-
 
 
 project_path="C:/Users/pc/Nextcloud/Python/GITHUB/FastApi-app"
